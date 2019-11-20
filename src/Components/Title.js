@@ -6,7 +6,7 @@ export default function Title({title, center}) {
         <TitleWrapper className="row" center={center}>
             <div className="col">
             <h2 className="text-title">{title}</h2>
-            <did className="title-underline" />
+            <div className="title-underline" />
             </div>
         </TitleWrapper>
     )

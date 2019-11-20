@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="container py-3">
             <div className="row">
             <div className="col-md-6">
-            <p claName="text-capitalize">cpoyright &copy;  ultimate tech store {new Date().getFullYear()} all rights reserved {" "}
+            <p className="text-capitalize">cpoyright &copy;  ultimate tech store {new Date().getFullYear()} all rights reserved {" "}
              </p>
             </div>
             <div className="col-md-6 d-flex justfy-content-around">
