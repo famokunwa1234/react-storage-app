@@ -18,12 +18,12 @@ export default function Product({ product }) {
             alt="product" style={{ height: "320px" }} 
             />
             <div className="product-icons">
-                <Link to={`/Products/${Product.id}`} onClick={() => 
-                    setSingleProduct(Product.id)}>
+                <Link to={`/Products/${product.id}`} onClick={() => 
+                    setSingleProduct(product.id)}>
                     <FaSearch className="icon" />
                 </Link>
                 <FaCartPlus className="icon"
-                onClick={() => addToCart(Product.id)} />
+                onClick={() => addToCart(product.id)} />
             </div>
             </div>
             <div className="card-body .d-flex justify-content-between">
